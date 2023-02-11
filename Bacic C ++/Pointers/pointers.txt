@@ -1,0 +1,44 @@
+pointers
+
+1.why pointers
+2.declaration
+3.initialization
+4.dereferencing
+5.dynamic allocation
+
+
+it is a adress variable , indirectly ascessing the data,
+it show adress of data ..
+
+-------------heap
+-------------satck
+-------------code section
+
+three portion of memory
+
+pointers help to acess heap memory
+or used to acess the file outside main memory....
+
+accessing heap
+accessing resoirces
+parametre passing....
+
+
+
+int a =10;-----data variable
+*p-----adress varaivble
+
+p=&a;-----initialization
+
+
+cout<<a;
+cout<<*p;------acess data through pointers
+
+#include <stdlib.h>
+int main(){
+    int *p;
+    malloc(5*sizeof(int))
+
+}
+
+
