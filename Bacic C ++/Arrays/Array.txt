@@ -1,0 +1,24 @@
+int a[5]
+here array with 5 space 0,1,2,3,4
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a[5];
+
+    // array will be created inside the stack memory
+
+
+
+    int b[5]={2,3,4,5,5}
+}
+
+
+how to acess array 
+wil use for loop ;
+
+
+for(i=0.i<5,i++){
+    cout<<()
+}
