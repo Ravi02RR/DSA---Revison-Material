@@ -1,0 +1,85 @@
+collection of related data member under 1 name
+data mermber may be smilar or dissimalr
+use to define userdefine data type
+
+
+1.defining structure
+2.sizee of structure
+3.declaring a structure
+4.accessing members
+
+
+taking example of rectangele
+
+having length and breadth{
+    which means defined by set of vale..
+
+}
+
+struct rectangele{
+    int length;-------2
+    int breadth;-----2 bytes
+
+    total consume 4 bytes of memory
+
+};
+
+
+int main(){
+    struct Rectangle r;-----this r will will reqire memory ;i.e 4 bytes
+   decleation plus init---- struct rectangele r={10,5}
+
+   creatd in stack of main function
+}
+
+
+acess the member
+r.length=15
+r.breadth=10
+
+dot operater is used..
+
+
+cout<<"area of recatngle is"<<length*breadth;
+
+example 2
+
+
+1.complex number 
+a+ib
+
+root -1
+
+struct complex {
+    int real;
+    int img;
+}
+
+2. student
+
+stack student {
+    int roll;
+    cahr naame[25];
+    cahr dep[25];
+    cahr adress[100];
+}
+
+
+
+
+3 cards 
+
+struct Card {
+    int face;------2 bytes eacha
+    int shape;
+    int color;
+}
+
+tatal----6bytes
+
+int main {
+    struct Card deck[52];---52*6
+
+struct Card deck[52]-{{1000},{2000}}
+
+}
