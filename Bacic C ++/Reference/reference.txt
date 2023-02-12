@@ -1,0 +1,9 @@
+it is nickname given to a variable
+int main(){
+    int a=10;
+    int &r=a;    ------ & signn before data is reference 
+
+    ____this means a itself will called as r ;
+    cout<<a; or cout<<r; will  give same value i.e 10
+
+}
