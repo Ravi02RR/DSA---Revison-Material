@@ -6,7 +6,11 @@ int main()
 {
 
     int a = 10;
-    int &r;
+    int &r = a;
+
+    cout << r << endl;
+    a++;
+    cout << r << endl;
 
     return 0;
 }

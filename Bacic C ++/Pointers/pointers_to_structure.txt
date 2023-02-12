@@ -1,0 +1,26 @@
+pointers to a structure
+
+struct Rectangle{
+    int length;
+    int breadth;
+}
+
+int main(){
+    struct rectangle r={10,5};
+    struct rectangle *p=&r
+
+    r.length=15;
+
+    (*p).length=20;
+
+    P-> length=20;   /// c language 
+
+creat a  object dynamically
+
+
+
+struct rectangle *p;
+p=(struct rectangle *)malloc(sizeof(struct rectangle));
+p-> length=10;
+p->breadth=5;
+}
