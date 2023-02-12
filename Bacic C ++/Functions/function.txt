@@ -1,0 +1,8 @@
+functions
+parametre passing
+-------------pass by value
+-------------pass by adress
+-------------pass by reference
+
+__________________________________________________
+
